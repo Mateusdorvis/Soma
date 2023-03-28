@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background-image: url(https://wallpapercave.com/wp/wp11864178.jpg);
+    background-size: cover;
+     color: #fff;
+
+}
+
+
+
+@font-face {
+    font-family: 'Right-Chalk';
+    src: url(Right\ Chalk.ttf);
+}
+.botao{
+background-color: rgba(0, 0, 0, 0.737);
+margin: 20%;
+padding: 10px;
+}
+div p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-top: 0.2rem;
+    animation: change-color-word 15s infinite;
+    text-transform: uppercase;
+    font-family: 'Right-Chalk';
+    font-size: 2rem;
+   
+   }
+  
+@keyframes change-color-word {
+    5% {
+        color: #f5f552;
+    }
+
+    10% {
+        color: #fe64d2;
+    }
+
+    70% {
+        color: #8ae367;
+    }
+}
+
+footer {
+    font-weight: 100;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+ color: hsl(0, 100%, 50%);
+ font-style: italic;
+}
